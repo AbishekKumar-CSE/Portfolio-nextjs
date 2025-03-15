@@ -1,7 +1,8 @@
 'use client';
 
 import { useSectionInView } from '@/common/lib/hooks';
-import portfolioImg from '@/../public/images/photo.jpg';
+// import portfolioImg from '@/../public/images/photo.jpg';
+import portfolioImg from '@/../public/images/AK.jpg';
 import { smoothScrollTo } from '@/common/lib/utils';
 import SectionDivider from '@/common/components/shared/section-divider';
 import SectionHeading from '@/common/components/shared/section-heading';
@@ -63,9 +64,9 @@ export default function About() {
                     onClick={(e) => {
                       smoothScrollTo({ e, id: 'contact' });
                     }}
-                    className="w-52 lg:w-40"
+                    className="w-52 lg:w-40 mt-3"
                   >
-                    <span className="bg-[#ffcbb4] text-2xl font-bold uppercase dark:bg-[#ddbea9] lg:normal-case">
+                    <span className="bg-[#ffcbb4] text- text-xl p-2 rounded-full font-bold uppercase dark:bg-[#ddbea9] lg:normal-case">
                       Contact me!
                     </span>
                   </Link>
@@ -74,7 +75,7 @@ export default function About() {
             </div>
             <div className="absolute z-30 hidden lg:left-0 lg:top-1/4 lg:block">
               <div className="relative h-72 w-72 lg:h-[380px] lg:w-[380px] xl:h-[470px] xl:w-[470px]">
-                <div className="absolute inset-0 z-20 rounded-full bg-gradient-to-b from-[#ffcbb4] via-[#e0afa0] to-[#e29578] transition-opacity group-hover:opacity-30" />
+                <div className="absolute inset-0 z-20 rounded-full bg-gradient-to-b from-[#ffcbb4] via-[#e0afa0] to-[#e29578] transition-opacity opacity-10 group-hover:opacity-20" />
                 <div className="absolute inset-0">
                   <Image
                     src={portfolioImg}
