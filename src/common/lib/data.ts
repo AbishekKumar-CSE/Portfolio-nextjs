@@ -90,21 +90,21 @@ export const projectsData = [
     imageUrl: accountingImg,
     link: 'https://akblog-swart.vercel.app/',
   },
-  {
-    title: 'Flow Builder',
-    description:
-      'A flowchart builder application using React Flow and Next.js. It allows users to create, edit, and manage workflow diagrams visually. The app supports draggable nodes, dynamic connections, and customizable flow structures.',
-    tags: [
-      'React',
-      'JavaScript',
-      'Next.js',
-      'React Flow',
-      // 'Clerk',
-      'Tailwind',
-    ],
-    imageUrl: filedriveImg,
-    link: 'https://ak-react-flow.netlify.app/',
-  },
+  // {
+  //   title: 'Flow Builder',
+  //   description:
+  //     'A flowchart builder application using React Flow and Next.js. It allows users to create, edit, and manage workflow diagrams visually. The app supports draggable nodes, dynamic connections, and customizable flow structures.',
+  //   tags: [
+  //     'React',
+  //     'JavaScript',
+  //     'Next.js',
+  //     'React Flow',
+  //     // 'Clerk',
+  //     'Tailwind',
+  //   ],
+  //   imageUrl: filedriveImg,
+  //   link: 'https://ak-react-flow.netlify.app/',
+  // },
   {
     title: 'Portfolio',
     description: `Portfolio that you're currently viewing! This project showcases my work and provides information about me. It highlights my skills, projects, and experiences.`,
@@ -121,21 +121,21 @@ export const projectsData = [
     link: 'https://ak-portfolio-gamma.vercel.app/',
   },
 
-  {
-    title: 'Customized Clerk App',
-    description:
-      'A customized authentication and user management app built with Next.js and Clerk. It provides a secure and seamless login/signup experience with role-based access control, user profiles, and authentication integrations.',
-    tags: [
-      'React',
-      'JavaScript',
-      'Next.js',
-      'Clerk',
-      'Tailwind',
-      'Authendication'
-    ],
-    imageUrl: surgeImg,
-    link: 'https://ak-portfolio-gamma.vercel.app/',
-  },
+  // {
+  //   title: 'Customized Clerk App',
+  //   description:
+  //     'A customized authentication and user management app built with Next.js and Clerk. It provides a secure and seamless login/signup experience with role-based access control, user profiles, and authentication integrations.',
+  //   tags: [
+  //     'React',
+  //     'JavaScript',
+  //     'Next.js',
+  //     'Clerk',
+  //     'Tailwind',
+  //     'Authendication'
+  //   ],
+  //   imageUrl: surgeImg,
+  //   link: 'https://ak-portfolio-gamma.vercel.app/',
+  // },
 ] as const;
 
 export const skillsData = [
