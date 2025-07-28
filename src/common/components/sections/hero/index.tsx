@@ -76,6 +76,7 @@ export default function Hero() {
                 download
               >
                 <span>Download CV</span>
+                
               </a>
 
               <div className="flex gap-2">
